@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Información sobre GIASA Core - Ensayo, el motor de Mantenimiento de uso interno de GIASA.">
+  <title>GIASA Core - Ensayo · Mantenimiento</title>
+  <style>
+    :root{color-scheme:light;--ink:#19312b;--muted:#52625c;--line:#dbe4df;--paper:#fff;--bg:#f3f6f3;--accent:#146047}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:1rem/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+    .wrap{width:min(100% - 2.5rem,50rem);margin:auto}header{border-bottom:1px solid var(--line);background:var(--paper)}header .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1rem 0}
+    .brand{font-weight:750;letter-spacing:.03em}nav{display:flex;flex-wrap:wrap;gap:1rem}a{color:var(--accent);text-underline-offset:.2em}a:focus-visible{outline:3px solid #e2a72f;outline-offset:4px}
+    main{padding:3rem 0 2rem}.eyebrow{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.13em;color:var(--muted)}h1{font-size:clamp(2rem,6vw,3.25rem);line-height:1.12;letter-spacing:-.04em;margin:.65rem 0 1rem}h2{font-size:1.3rem;line-height:1.3;margin:0 0 .7rem}p{margin:.7rem 0}.lead{font-size:1.16rem;max-width:42rem;color:var(--muted)}
+    section{background:var(--paper);border:1px solid var(--line);border-radius:.8rem;padding:1.5rem;margin-top:1.3rem}ul{padding-left:1.25rem;margin:.65rem 0}.note{border-left:4px solid var(--accent)}footer{padding:1.5rem 0 2.5rem;font-size:.9rem;color:var(--muted)}footer p{margin:.3rem 0}.contact{overflow-wrap:anywhere}
+    @media(max-width:440px){header .wrap{align-items:flex-start;flex-direction:column}main{padding-top:2rem}section{padding:1.2rem}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><span class="brand">GIASA · Mantenimiento</span><nav aria-label="Navegación principal"><a href="index.html" aria-current="page">Información</a><a href="privacidad.html">Privacidad</a></nav></div></header>
+  <main class="wrap">
+    <p class="eyebrow">Herramienta de uso interno</p>
+    <h1>GIASA Core - Ensayo</h1>
+    <p class="lead">Es el motor que asiste al equipo de GIASA en la gestión de mantenimiento de inmuebles desde su APP de acceso restringido.</p>
+
+    <section>
+      <h2>Para qué se utiliza</h2>
+      <p>Permite registrar novedades, consultar trabajos y preguntas pendientes, conservar conversaciones y respaldos, y seguir el estado de tareas, gastos y cobros registrados.</p>
+      <p>El equipo puede enviar texto, documentos, fotos, audio y video. El motor interpreta los pedidos y aplica controles de identidad, permisos y confirmación antes de las acciones que los requieren.</p>
+      <p>Una recepción de mensaje no acredita que un trabajo se haya realizado, verificado o pagado: esos estados se registran por separado.</p>
+    </section>
+
+    <section>
+      <h2>Conexión con herramientas de gestión</h2>
+      <p>La autorización de una cuenta Google permite consultar las fuentes de gestión configuradas y actualizar los documentos, respaldos y agenda de mantenimiento autorizados. La integración utiliza Google Drive, Google Sheets y Google Calendar.</p>
+      <p>El servicio también utiliza Trello para el seguimiento de casos y Anthropic para interpretar texto y contexto de trabajo. La modalidad local de voz transcribe el audio en el servidor; su texto puede formar parte de esa interpretación.</p>
+      <p>La <a href="privacidad.html">información de privacidad</a> explica los datos tratados, los servicios que los reciben y su conservación.</p>
+    </section>
+
+    <section class="note">
+      <h2>Información pública, operación privada</h2>
+      <p>Estas páginas sólo describen el servicio. No muestran conversaciones, inmuebles, archivos ni datos de cuentas.</p>
+      <p>No se ofrecen altas públicas. El acceso a la APP se entrega al equipo autorizado mediante cuentas administradas por GIASA. La conversación y el historial de Mantenimiento son compartidos entre los usuarios habilitados del equipo.</p>
+    </section>
+  </main>
+  <footer class="wrap"><p>Contacto sobre el servicio y sus datos:</p><p><a class="contact" href="mailto:inmobiliariagiasa@gmail.com">inmobiliariagiasa@gmail.com</a></p><p><a href="privacidad.html">Privacidad de GIASA Core - Ensayo</a></p></footer>
+</body>
+</html>
